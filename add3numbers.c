@@ -8,13 +8,13 @@
 
 int main(void)
 {
-int num1, num2, num3, sum;
+	int num1, num2, num3, sum;
 
-printf("Enter three numbers: ");
-scanf("%d %d %d", &num1, &num2, &num3);
-sum = num1 + num2 + num3;
+	printf("Enter three numbers: ");
+	scanf("%d %d %d", &num1, &num2, &num3);
+	sum = num1 + num2 + num3;
 
-printf("Sum: %d\n", sum);
+	printf("Sum: %d\n", sum);
 
-return 0;
+	return (0);
 }

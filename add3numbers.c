@@ -8,12 +8,13 @@
 
 int main(void)
 {
-double num1, num2, num3, sum;
-/* This program adds three numbers from the user */
+int num1, num2, num3, sum;
 
-printf("Input three numbers: ");
-scanf("%lf %lf %lf", &num1, &num2, &num3);
-sum = add3num;
-printf("Sum = %.2lf\n", sum);
+printf("Enter three numbers: ");
+scanf("%d %d %d", &num1, &num2, &num3);
+sum = num1 + num2 + num3;
 
-return (0); }
+printf("Sum: %d\n", sum);
+
+return 0;
+}

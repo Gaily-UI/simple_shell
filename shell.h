@@ -119,6 +119,9 @@ void show_error(the_keys *, char *);
 int show_d(int, int);
 void rem_comms(char *);
 
+/* add3numbers.c  */
+int add3Nums(int, int, int);
+
 /* about_errors2.c */
 int write_fd(char chr, int file_des);
 int con_err(char *);

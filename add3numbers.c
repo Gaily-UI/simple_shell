@@ -2,19 +2,17 @@
 #include "shell.h"
 
 /**
- * main - entry point
- * Return: num1, num2, num3
+ * add3Nums - function to add two numbers
+ * @num1: first number entered
+ * @num2: second number entered
+ * @num3: third number entered
+ * Return: sum
  */
 
-int main(void)
+int add3Nums(int num1, int num2, int num3)
 {
-	int num1, num2, num3, sum;
-
-	printf("Enter three numbers: ");
-	scanf("%d %d %d", &num1, &num2, &num3);
+	int sum;
 	sum = num1 + num2 + num3;
 
-	printf("Sum: %d\n", sum);
-
-	return (0);
+	return (sum);
 }
